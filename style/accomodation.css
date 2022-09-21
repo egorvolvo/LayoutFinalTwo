@@ -1,0 +1,98 @@
+.accomodation_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.accomodation_item {
+  width: 374px;
+  background-color: var(--white-color);
+  margin-bottom: 23px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+
+
+.accomodation_item_three,
+.accomodation_item_six {
+  margin-right: 0;
+}
+
+.accomodation_item_nine {
+  margin-right: 0;
+  /* background: url(../img/hotel_9.jpg) center  no-repeat; */
+  text-align: end;
+  display: flex;
+  align-items: flex-end;
+  padding: 50px 50px 27px 50px;
+  background-image: linear-gradient(0deg, rgba(48,64,89,0.84) 0%, rgba(53,65,83,0) 67%), url(../img/hotel_9.jpg) ;
+  position: relative;
+}
+
+.accomodation_all_options {
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-color) ;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 492.004 492.004' fill='white' xmlns:v='https://vecta.io/nano'%3E%3Cpath d='M382.678 226.804L163.73 7.86C158.666 2.792 151.906 0 144.698 0s-13.968 2.792-19.032 7.86l-16.124 16.12c-10.492 10.504-10.492 27.576 0 38.064L293.398 245.9l-184.06 184.06c-5.064 5.068-7.86 11.824-7.86 19.028 0 7.212 2.796 13.968 7.86 19.04l16.124 16.116a26.72 26.72 0 0 0 19.032 7.86c7.208 0 13.968-2.792 19.032-7.86L382.678 265c5.076-5.084 7.864-11.872 7.848-19.088.016-7.244-2.772-14.028-7.848-19.108z'/%3E%3C/svg%3E");
+
+  background-position: right;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 20px
+}
+
+.accomodation_all_options::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(241, 241, 241, 0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.section_accomodation_list_info{
+  padding:35px 35px 35px 35px;
+}
+
+.section_accommodation_list_item_info_sale {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.accomodation_item_rating {
+  margin-left: 45px;
+}
+.item_desc-price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section_accommodation_list_item_info_hotel {
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+margin-bottom: 16px;
+}
+
+.section_accomodation_list_item_info_location {
+  color: #999999;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.section_services_list_link:hover {
+  border-bottom: 1px solid #CC9933;
+  opacity: 0.8;
+}
+
+a.accomodation_all_options:hover {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 492.004 492.004' fill='%23CC9933' xmlns:v='https://vecta.io/nano'%3E%3Cpath d='M382.678 226.804L163.73 7.86C158.666 2.792 151.906 0 144.698 0s-13.968 2.792-19.032 7.86l-16.124 16.12c-10.492 10.504-10.492 27.576 0 38.064L293.398 245.9l-184.06 184.06c-5.064 5.068-7.86 11.824-7.86 19.028 0 7.212 2.796 13.968 7.86 19.04l16.124 16.116a26.72 26.72 0 0 0 19.032 7.86c7.208 0 13.968-2.792 19.032-7.86L382.678 265c5.076-5.084 7.864-11.872 7.848-19.088.016-7.244-2.772-14.028-7.848-19.108z'/%3E%3C/svg%3E");
+  color:#CC9933;
+}

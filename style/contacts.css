@@ -1,0 +1,75 @@
+.section_contacts {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  background-image: url(../img/Layer.jpg);
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  background-position: 90% 75%;
+}
+
+.section_contacts_block {
+  display: flex;
+
+}
+
+.contacts_name {
+  margin-right: 70px;
+  min-width: 70px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+
+}
+
+.contacts_name_info {
+  min-width: 229px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.section_contacts_block_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.section_contact_buttom {
+  padding: 20px;
+  color: var(--main-color);
+  line-height: 1;
+  border: 1px solid #CC9933;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  position: static;
+  font-size: 16px;
+
+  width: 200px;
+  margin-top: 52px;
+}
+
+.section_contacts_block {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  max-width: 375px;
+}
+
+.section-contacts-link_buttom {
+  font-size: 16px;
+  font-weight: 24px;
+  line-height: 1.5;
+  color: var(--main-color);
+  max-width: 155px;
+}
+.footer_right_list{
+  display: flex;
+}
+.contacts_name_tel {
+  margin-right: 40px;
+}
+
+.section-contacts-link_buttom:hover {
+  opacity: 0.8;
+}

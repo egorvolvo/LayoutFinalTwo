@@ -1,0 +1,103 @@
+.footer {
+  background-color: #333333;
+  background-image: url(../img/sun.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 743px;
+  padding: 52px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.footer_text {
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer_left {
+  width: 320px;
+}
+
+.footer_center {
+  width: 358px;
+}
+
+.footer_text_left_center {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.footer_text_left_buttom {
+  color: var(--main-color);
+}
+
+.footer_text_left_buttom:hover {
+  opacity: 0.8;
+}
+.footer_text_center_up{
+  margin-bottom: 40px;
+}
+
+.footer_text_center_center {
+  margin-bottom: 40px;
+}
+
+.footer_center{
+  margin-left: 102px;
+}
+
+.fotter_social_item_trip {
+  background-image: url(../img/trip.svg);
+  width: 25px;
+  height: 25px;
+}
+.fotter_social_item_twit {
+  background-image: url(../img/twit.svg);
+  width: 25px;
+  height: 25px;
+}
+.fotter_social_item_face {
+  background-image: url(../img/face.svg);
+  width: 25px;
+  height: 25px;
+}
+.fotter_social_item_vk {
+  background-image: url(../img/vk.svg);
+  width: 25px;
+  height: 25px;
+
+}
+.fotter_social_item_inst {
+  background-image: url(../img/inst.svg);
+  width: 25px;
+  height: 25px;
+}
+
+
+.fotter_social_icon {
+  display: inline-block;
+background-repeat: no-repeat;
+background-size: contain;
+background-color: transparent;
+background-position: center center;
+transition: transform .5s linear, opacity .5s linear;
+}
+
+.footer_right_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_right {
+  margin-left: auto;
+}
+.fotter_social_item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+a.fotter_social_icon:hover {
+  opacity: 1;
+  transform: rotate(360deg);
+}
